@@ -1,0 +1,391 @@
+/* 顏色與樣式設定 */
+.green {
+  font-size: 1px;
+  color: black;
+}
+
+.masthead-heading {
+  color: black;
+  font-size: 60px;
+  font-family: 'Noto Sans TC', sans-serif !important;
+  font-weight: 550; /* ⬅️ 讓字不那麼粗 */
+}
+
+.title2{
+  font-size: 35px;
+  color: black;
+  margin: 0%;
+  text-align: center;
+}
+
+.title3{
+  font-size: 35px;
+  color: black;
+  margin: 0%;
+  text-align: center;
+}
+
+.p2{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 20px  !important;
+  color: #000;
+}
+
+.p02{
+  margin-top: 0.7em;
+  margin-bottom: 1em;
+  font-size: 20px  !important;
+  color: #000;
+}
+
+.p3{
+  font-size: 0.8rem;
+  line-height: 0.1;
+  color: #000;
+}
+
+.p4 {
+  font-size: 14px!important;
+  line-height: 1.6;  /* 調整行高，讓文字行距更大 */
+  margin-bottom: 20px!important;  /* 增加底部間距 */
+  padding-top: 5%; /* 如果需要，可以增加內邊距 */
+}
+
+/* 通用區塊設定 */
+.resume-section {
+  width: 85%;
+  padding: 60px 40px;
+  max-width: 1200px; /* 或你喜歡的最大寬度 */
+  margin: auto;   /* ⬅️ 讓它水平置中 */
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.resume-section-content {
+  width: 100%;
+}
+
+/* 區塊排版 */
+.top {
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+.bottom {
+  margin-top: 0;
+  margin-bottom: 0px;
+  display: flex;
+  gap: 0px;
+}
+
+.box ul li:first-child {
+  margin-top: 20px;  /* 增加這行來在第一個條目和標題間增加間距 */
+}
+
+.box { /* 工作經驗小標 */
+  color: black;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: left;
+  flex: 1;
+}
+
+.boxcut { /* 剪輯作品小標 */
+  color: black;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: left;
+  flex: 1;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.boxpic { /* 攝影作品小標 */
+  color: black;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: left;
+  flex: 1;
+  padding-bottom: 20px;
+}
+
+.box h3 {/* 技能證照小標 */
+  margin-top: 0.3em!important;
+  margin-bottom: 0em!important;
+  font-size: 22px  !important;
+  color: #000;
+}
+
+/* 圖片樣式 */
+
+.page1{
+  width: 103%;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: block;
+  margin: 0 auto;
+}
+
+.image-full {
+  width: 100%;
+  padding-bottom: 0;
+  display: block;
+  margin: 0 auto;
+}
+
+.link{
+  width: 210px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.link2{
+  width: 210px;
+  padding-top: 0;
+  padding-bottom: 0;
+  vertical-align: middle;
+  line-height: 0!important; 
+}
+
+.gif-area img {
+  width: 100%;
+}
+
+/* 攝影作品 */
+.image-row,
+.video-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 0px;
+}
+
+.image-box {
+  width: 100%;
+  height: auto;
+}
+
+.video-box-container {
+  width: 311.5px;
+}
+
+.video-box {
+  width: 100%;
+}
+
+.video-details {
+  margin-top: 0.8em;
+  margin-bottom: 1.5em;
+  font-size: 16px  !important;
+  color: #000;
+}
+
+
+
+/* 背景設定 */
+.anan-bg {
+  background-color:hsl(170, 70%, 24%);
+}
+
+/* 文字區塊樣式（技能區、說明區） */
+.skilline,
+.lead {
+  width: 100%;
+  color: #000;
+  padding: 14px 14px 14px 22px;
+  border: 1px solid #000;
+  
+}
+#about-me {
+  font-size: 16px;  /* 設定字體大小為 20px */
+}
+
+/* 整體清單樣式 */
+hr {
+  width: 100%;
+  border: none;
+  border-top: 1px solid #000;
+  margin: 20px 60px 20px 0px; 
+}
+
+.hr2 {
+  width: 85%;
+  border: none;
+  border-top: 1px solid #000;
+  margin: 20px 60px 20px 0px; 
+}
+
+ul, .box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li,
+.box li {
+  list-style: none;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 0.8em;
+
+  
+  color: #000;
+  font-weight: 500;
+}
+
+.box .date {
+  color:  rgb(52, 130, 127);
+  font-size: 14px;
+  padding-left: 0px;
+}
+
+.box a {
+  color: #0b0404;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.box h3 {
+  font-size: 35px;
+  margin-top: 0.3em;
+  line-height: 1;
+  padding: 0px 0px 0px 50px;
+}
+
+/* 小標的清單樣式 */
+
+.skills-list li,
+.certs-list li {
+  padding: 0px 0px 0px 50px;
+  line-height: 1.2;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 0.4em;
+}
+
+.snailtop{
+  list-style: none;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  line-height: 2;
+}
+
+.snailtop2{
+  list-style: none;
+  font-size: 16px;
+  margin-top: 20px;
+  line-height: 1!important;
+}
+
+.snail{
+  list-style: none;
+  font-size: 16px;
+  margin-top: 21px;
+}
+
+.snail2{
+  list-style: none;
+  font-size: 16px;
+  line-height: -2!important;
+}
+
+.li sanail{
+  padding-top: 10%;
+}
+
+/* 增加技能和證照區塊間距 */
+.box ul.skills-list {
+  margin-bottom: 30px; /* 調整技能區塊與證照區塊之間的間距 */
+
+}
+
+.box ul.certs-list {
+  margin-top: 20px; /* 如果需要，調整證照區塊上方的間距 */
+}
+
+/* 連結區 */
+#lookme a {
+  font-size: 20px;
+  display: inline-block;
+  margin-top: 8em;
+  color: rgb(52, 130, 127);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0px 0px 0px 50px;
+}
+
+#lookme a:hover {
+  text-decoration: underline;
+}
+
+.worklink:hover {
+color: rgb(52, 130, 127)!important;
+text-decoration: underline;
+line-height: 0%;
+}
+
+/* 連結樣式：黑色，無底線 */
+.cutlink {
+  color: #444;        /* 文字顏色為黑色 */
+  text-decoration: none; /* 去掉底線 */
+  font-size: 14px;
+  margin-top: 15px!important;
+}
+
+/* hover 時改變顏色 */
+.cutlink:hover {
+  color: rgb(52, 130, 127); 
+  text-decoration: underline;
+  font-size: 14px;
+  line-height: 0%;
+}
+
+
+/* 聯絡我 */
+.contact-circle-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 20px;
+  margin-bottom: 3%;
+}
+
+.contact-circle-box {
+  width: 180px;
+  text-align: center;
+}
+
+.circle-icon {
+  width: 100px;
+  height: 100px;
+  background-color: #3a3a3a;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10% auto 25% auto!important;/* 改標籤上下高度 */
+  font-size: 40px;
+  transition: background-color 0.3s ease;
+}
+
+.circle-icon:hover {
+  background-color: rgb(52, 130, 127);
+}
+
+.contact-label {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 20%!important;
+  margin-bottom: 5%!important; 
+  color: #000000;}
+
+.contact-info {
+  font-size: 16px;
+  color: #444;
+}
